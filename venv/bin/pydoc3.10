@@ -1,0 +1,5 @@
+#!/Users/jing/Desktop/end_to_end_project/ATS/venv/bin/python3.10
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

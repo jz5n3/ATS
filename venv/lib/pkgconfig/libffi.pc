@@ -1,0 +1,11 @@
+prefix=/Users/jing/Desktop/end_to_end_project/ATS/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/jing/Desktop/end_to_end_project/ATS/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
